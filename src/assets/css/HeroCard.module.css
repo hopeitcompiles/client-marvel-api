@@ -1,0 +1,73 @@
+.card {
+    background-color: #fff;
+    border: none;
+    width: 190px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+li{
+    padding-top: 20px;
+    list-style: none;
+}
+.imagecontainer {
+    position: relative
+}
+
+.thumbnailimage {
+    background-color: azure;
+    border-radius: 10px !important
+}
+
+.thumbnailimage:hover {
+    opacity: 0.8;
+
+}
+
+.wishlist {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.first {
+    position: absolute;
+    width: 100%;
+    padding: 9px
+}
+
+.heroname {
+    font-size: 16px;
+    font-weight: bold;
+    width: 75%
+}
+.cardtext {
+    margin: 0px 12px;
+    font-size: 13px;
+    color: black;
+    width: 75%
+}
+.card-btn {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    padding: 3px
+}
+
+
+.item-size {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid grey;
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}

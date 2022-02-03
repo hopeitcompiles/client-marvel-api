@@ -1,0 +1,28 @@
+/* flexbox for responsive hero detail page */
+.container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col{
+    max-width: 400px;
+    width: 80%;
+    margin: 15px;
+    height: auto;
+}
+
+.image{
+    border-radius: 15px;
+}
+.image:hover{
+    opacity: 0.9;
+}
+
+.detailtext{
+    font-size: 1.1rem;
+}
+.titletext{
+    font-size: 2rem;
+}
+
